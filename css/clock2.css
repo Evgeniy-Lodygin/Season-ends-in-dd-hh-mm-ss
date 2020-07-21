@@ -68,3 +68,56 @@ body{
 .clock .point { 
 	margin: 0 10px; 
 }
+
+@media screen and (max-width: 750px) {
+  .clock li{
+	font-size: 6em;
+	}
+  .clock2 li{
+	font-size: 5em;
+	}
+}
+
+@media screen and (max-width: 650px) {
+  .clock li{
+	font-size: 5em;
+	}
+  .clock2 li{
+	font-size: 4em;
+	}
+}
+@media screen and (max-width: 580px) {
+  .clock li{
+	font-size: 4em;
+	}
+  .clock .point { 
+	margin: 0 5px;
+}
+  .clock2 li{
+	font-size: 3em;
+	}
+
+@media screen and (max-width: 500px) {
+  .clock li{
+	font-size: 3em;
+	}
+  .clock .point { 
+	margin: 0 5px;
+}
+  .clock2 li{
+	font-size: 2.5em;
+	}
+}
+@media screen and (max-width: 400px) {
+  .clock li{
+	font-size: 2em;
+	}
+  .clock .point { 
+	margin: 0 322:11 21.07.2020px;
+}
+  .clock2 li{
+	font-size: 1.5em;
+	}
+.clock2 li{
+margin-right: 5px;
+}
