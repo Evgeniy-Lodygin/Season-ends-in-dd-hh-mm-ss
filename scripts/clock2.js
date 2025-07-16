@@ -14,22 +14,23 @@ class Clock{
 	initHeadingAndFinalDate(){
 		const currentDay = new Date()
 		,month = currentDay.getMonth()
+		,currentYear = currentDay.getFullYear()
 		;
 		if (month == 11 ||month == 0||month == 1){
 			this.heading.text(`Winter ends in:`);
-			this.finalDate = new Date(2026,2,1);
+			this.finalDate = new Date(currentYear,2,1);
 		}
 		else if (month == 2 ||month == 3||month == 4){
 			this.heading.text(`Spring ends in:`);
-			this.finalDate = new Date(2026,5,1);
+			this.finalDate = new Date(currentYear,5,1);
 		}
 		else if (month == 5 ||month == 6||month == 7){
 			this.heading.text(`Summer ends in:`);
-			this.finalDate = new Date(2025,8,1);
+			this.finalDate = new Date(currentYear,8,1);
 		}
 		else{
 			this.heading.text(`Autumn ends in:`);
-			this.finalDate = new Date(2025,11,1);
+			this.finalDate = new Date(currentYear,11,1);
 		}
 	}
 
